@@ -65,7 +65,7 @@ header #logo img
 
 nav
 {
-	background: #567E58; 
+	background: #7A7A7A; 
 	font-size: 0.9em;
 }
 
@@ -85,15 +85,15 @@ nav ul li
 
 nav ul li a
 {
-	color: #CFD3B2;
+	color: #FFF;
 	display: block;
 	padding: 0.5em 0;
 	text-decoration: none;
 }
 
-nav ul li:hover
+nav ul li a:hover
 {
-	background: #385239;
+	text-decoration: underline;
 }
 
 nav #flecha_nav a
@@ -121,7 +121,9 @@ nav #publicar_nav a
 	background: white;
 	border-bottom: 3px solid #22BCE0;
 	border-radius: 0.5em;
-	margin: 1em 1em;
+	margin-bottom: 3em;
+	min-height: 128px;
+	position: relative;
 }
 
 #contenido .item p 
@@ -161,4 +163,22 @@ nav #publicar_nav a
 {
 	color: #444;
 	text-decoration: none;
+}
+
+#contenido .item .votacion
+{
+	background: white;
+	border-radius: 0 0 0.5em 0.5em;
+	color: #22BCE0;
+	margin: 3px 0 0 0;
+	padding: 0.5em 0;
+	position: absolute;
+	text-align: center;
+	top: 100%;
+	width: 96px;
+}
+
+#contenido .item .votacion a 
+{
+	color: #22BCE0;
 }
